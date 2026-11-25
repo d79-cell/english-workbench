@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>单词切片核对</title>
+<style>
+:root{--bg:#fbfaf6;--card:#fff;--ink:#1e2a2e;--ink2:#4a5b60;--line:#e4e7e1;--accent:#0e7c6b;--warn:#b5651d;--red:#b0392f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:14px}
+.wrap{max-width:1000px;margin:0 auto;padding:20px}
+h1{font-size:22px;color:var(--accent);margin-bottom:8px}
+.note{background:#fbf0e4;border-left:4px solid var(--warn);padding:10px 14px;border-radius:0 8px 8px 0;margin:12px 0;font-size:13px}
+.unit{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:14px}
+.unit h2{font-size:16px;color:var(--accent);margin-bottom:8px}
+.row{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding:6px 0}
+.row:last-child{border:0}
+.row .n{width:28px;color:var(--ink2);font-size:12px}
+.row .w{width:130px;font-weight:600}
+.row .cn{width:110px;color:var(--ink2);font-size:12px}
+.row .d{width:60px;color:var(--ink3);font-size:11px}
+.row button{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:4px 12px;cursor:pointer;font-size:12px}
+.row button:hover{filter:brightness(1.1)}
+.row.bad{background:#fdf0ee}
+.row.bad button{background:#ccc;cursor:not-allowed}
+.row.bad .w{color:var(--red)}
+audio{height:32px;flex:1;min-width:120px}
+@media(max-width:640px){.row{flex-wrap:wrap}.row .w{width:auto}.row .cn{width:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>单词切片核对页</h1>
+<div class="note">每个词点 ▶ 听读音，核对是否读的这个词。<b>红底 = 音频里没有对应段（词表比音频多）</b>，这些需要你决定怎么办。修正依据：音频开头两段是"Words and expressions"和"Unit N"报幕，已跳过。</div>
+<div id="box">加载中…</div>
+</div>
+<script>
+fetch('data/wordaudio.json').then(r=>r.json()).then(d=>{
+  const box=document.getElementById('box');box.innerHTML='';
+  for(const [unit,items] of Object.entries(d)){
+    const u=document.createElement('div');u.className='unit';
+    u.innerHTML=`<h2>${unit}</h2>`;
+    items.forEach((x,i)=>{
+      const row=document.createElement('div');
+      row.className='row'+(x.verified?'':' bad');
+      if(x.verified){
+        row.innerHTML=`<span class="n">${i+1}</span><span class="w">${x.word}</span><span class="cn">${x.cn}</span>
+          <button onclick="new Audio('${x.file.split('/').map(encodeURIComponent).join('/')}').play()">▶</button>
+          <audio controls preload="none" src="${x.file.split('/').map(encodeURIComponent).join('/')}"></audio>
+          <span class="d">${x.dur}s</span>`;
+      }else{
+        row.innerHTML=`<span class="n">${i+1}</span><span class="w">${x.word}</span><span class="cn">${x.cn}</span>
+          <button disabled>无音频</button><span class="d">待确认</span>`;
+      }
+      u.appendChild(row);
+    });
+    box.appendChild(u);
+  }
+}).catch(e=>document.getElementById('box').textContent='加载失败：'+e);
+</script>
+</body>
+</html>

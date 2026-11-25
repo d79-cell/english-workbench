@@ -4,253 +4,325 @@
       "word": "plate",
       "cn": "盘，碟",
       "file": "音频/单词/Unit1/01_plate.mp3",
-      "start": 0.05,
-      "end": 1.617
+      "start": 6.321,
+      "end": 6.897,
+      "dur": 0.576,
+      "verified": true
     },
     {
       "word": "group",
       "cn": "群体",
       "file": "音频/单词/Unit1/02_group.mp3",
-      "start": 1.717,
-      "end": 3.283
+      "start": 8.402,
+      "end": 8.71,
+      "dur": 0.308,
+      "verified": true
     },
     {
       "word": "food group",
       "cn": "食物类别",
       "file": "音频/单词/Unit1/03_food_group.mp3",
-      "start": 3.383,
-      "end": 4.95
+      "start": 10.499,
+      "end": 11.403,
+      "dur": 0.904,
+      "verified": true
     },
     {
       "word": "fruit",
       "cn": "水果",
       "file": "音频/单词/Unit1/04_fruit.mp3",
-      "start": 5.05,
-      "end": 6.617
+      "start": 12.891,
+      "end": 13.538,
+      "dur": 0.646,
+      "verified": true
     },
     {
       "word": "candy",
       "cn": "糖果",
       "file": "音频/单词/Unit1/05_candy.mp3",
-      "start": 6.717,
-      "end": 8.283
+      "start": 15.308,
+      "end": 16.054,
+      "dur": 0.747,
+      "verified": true
     },
     {
       "word": "chocolate",
       "cn": "巧克力，朱古力",
       "file": "音频/单词/Unit1/06_chocolate.mp3",
-      "start": 8.383,
-      "end": 9.95
+      "start": 17.579,
+      "end": 18.078,
+      "dur": 0.498,
+      "verified": true
     },
     {
       "word": "cola",
       "cn": "可乐",
       "file": "音频/单词/Unit1/07_cola.mp3",
-      "start": 10.05,
-      "end": 11.617
+      "start": 19.921,
+      "end": 20.575,
+      "dur": 0.654,
+      "verified": true
     },
     {
       "word": "chips",
       "cn": "炸薯条；炸薯片",
       "file": "音频/单词/Unit1/08_chips.mp3",
-      "start": 11.717,
-      "end": 13.283
+      "start": 22.285,
+      "end": 22.914,
+      "dur": 0.629,
+      "verified": true
     },
     {
       "word": "soup",
       "cn": "汤",
       "file": "音频/单词/Unit1/09_soup.mp3",
-      "start": 13.383,
-      "end": 14.95
+      "start": 24.488,
+      "end": 25.202,
+      "dur": 0.714,
+      "verified": true
     },
     {
       "word": "potato",
       "cn": "马铃薯，土豆",
       "file": "音频/单词/Unit1/10_potato.mp3",
-      "start": 15.05,
-      "end": 16.617
+      "start": 26.763,
+      "end": 27.441,
+      "dur": 0.678,
+      "verified": true
     },
     {
       "word": "choose",
       "cn": "挑选，选择",
       "file": "音频/单词/Unit1/11_choose.mp3",
-      "start": 16.717,
-      "end": 18.283
+      "start": 29.084,
+      "end": 29.596,
+      "dur": 0.512,
+      "verified": true
     },
     {
       "word": "meat",
       "cn": "肉",
       "file": "音频/单词/Unit1/12_meat.mp3",
-      "start": 18.383,
-      "end": 19.95
+      "start": 31.271,
+      "end": 31.97,
+      "dur": 0.699,
+      "verified": true
     },
     {
       "word": "letter",
       "cn": "信，函",
       "file": "音频/单词/Unit1/13_letter.mp3",
-      "start": 20.05,
-      "end": 21.617
+      "start": 33.706,
+      "end": 34.359,
+      "dur": 0.653,
+      "verified": true
     },
     {
       "word": "stomach",
       "cn": "胃",
       "file": "音频/单词/Unit1/14_stomach.mp3",
-      "start": 21.717,
-      "end": 23.283
+      "start": 35.783,
+      "end": 36.936,
+      "dur": 1.153,
+      "verified": true
     },
     {
       "word": "enough",
       "cn": "足够的",
       "file": "音频/单词/Unit1/15_enough.mp3",
-      "start": 23.383,
-      "end": 24.95
+      "start": 38.248,
+      "end": 38.728,
+      "dur": 0.48,
+      "verified": true
     },
     {
       "word": "that's enough",
       "cn": "够了",
       "file": "音频/单词/Unit1/16_that's_enough.mp3",
-      "start": 25.05,
-      "end": 26.617
+      "start": 40.195,
+      "end": 40.68,
+      "dur": 0.485,
+      "verified": true
     },
     {
       "word": "bad",
       "cn": "不好的，糟糕的，坏的",
       "file": "音频/单词/Unit1/17_bad.mp3",
-      "start": 26.717,
-      "end": 28.283
+      "start": 42.375,
+      "end": 43.054,
+      "dur": 0.679,
+      "verified": true
     },
     {
       "word": "bread",
       "cn": "面包",
       "file": "音频/单词/Unit1/18_bread.mp3",
-      "start": 28.383,
-      "end": 29.95
+      "start": 44.594,
+      "end": 45.246,
+      "dur": 0.652,
+      "verified": true
     },
     {
       "word": "a few",
       "cn": "一些，几个",
       "file": "音频/单词/Unit1/19_a_few.mp3",
-      "start": 30.05,
-      "end": 31.617
+      "start": 47.177,
+      "end": 47.69,
+      "dur": 0.512,
+      "verified": true
     },
     {
       "word": "biscuit",
       "cn": "饼干",
       "file": "音频/单词/Unit1/20_biscuit.mp3",
-      "start": 31.717,
-      "end": 33.283
+      "start": 49.486,
+      "end": 50.235,
+      "dur": 0.749,
+      "verified": true
     },
     {
       "word": "heavy",
       "cn": "沉重的",
       "file": "音频/单词/Unit1/21_heavy.mp3",
-      "start": 33.383,
-      "end": 34.95
+      "start": 52.033,
+      "end": 52.821,
+      "dur": 0.788,
+      "verified": true
     },
     {
       "word": "sleepy",
       "cn": "困倦的，瞌睡的",
       "file": "音频/单词/Unit1/22_sleepy.mp3",
-      "start": 35.05,
-      "end": 36.617
+      "start": 54.579,
+      "end": 55.327,
+      "dur": 0.748,
+      "verified": true
     },
     {
       "word": "always",
       "cn": "总是，一直",
       "file": "音频/单词/Unit1/23_always.mp3",
-      "start": 36.717,
-      "end": 38.283
+      "start": 57.187,
+      "end": 57.785,
+      "dur": 0.598,
+      "verified": true
     },
     {
       "word": "change",
       "cn": "变化，改变",
       "file": "音频/单词/Unit1/24_change.mp3",
-      "start": 38.383,
-      "end": 39.95
+      "start": 59.62,
+      "end": 60.0,
+      "dur": 0.38,
+      "verified": true
     },
     {
       "word": "healthy",
       "cn": "健康的；有益健康的",
-      "file": "音频/单词/Unit1/25_healthy.mp3",
-      "start": 40.05,
-      "end": 41.617
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "problem",
       "cn": "问题；难题；困难",
-      "file": "音频/单词/Unit1/26_problem.mp3",
-      "start": 41.717,
-      "end": 43.283
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "slow",
       "cn": "慢下来；缓慢的",
-      "file": "音频/单词/Unit1/27_slow.mp3",
-      "start": 43.383,
-      "end": 44.95
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "whoa",
       "cn": "冷静，慢些",
-      "file": "音频/单词/Unit1/28_whoa.mp3",
-      "start": 45.05,
-      "end": 46.617
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "oats",
       "cn": "燕麦",
-      "file": "音频/单词/Unit1/29_oats.mp3",
-      "start": 46.717,
-      "end": 48.283
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "nut",
       "cn": "坚果；果仁",
-      "file": "音频/单词/Unit1/30_nut.mp3",
-      "start": 48.383,
-      "end": 49.95
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "bar",
       "cn": "块，条，棒，根",
-      "file": "音频/单词/Unit1/31_bar.mp3",
-      "start": 50.05,
-      "end": 51.617
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "teaspoon",
       "cn": "茶匙；一茶匙之量",
-      "file": "音频/单词/Unit1/32_teaspoon.mp3",
-      "start": 51.717,
-      "end": 53.283
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "sugar",
       "cn": "糖",
-      "file": "音频/单词/Unit1/33_sugar.mp3",
-      "start": 53.383,
-      "end": 54.95
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "bottle",
       "cn": "瓶子；一瓶之量",
-      "file": "音频/单词/Unit1/34_bottle.mp3",
-      "start": 55.05,
-      "end": 56.617
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "oil",
       "cn": "植物油，动物油",
-      "file": "音频/单词/Unit1/35_oil.mp3",
-      "start": 56.717,
-      "end": 58.283
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "snack",
       "cn": "小吃，点心",
-      "file": "音频/单词/Unit1/36_snack.mp3",
-      "start": 58.383,
-      "end": 59.95
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     }
   ],
   "Unit 2": [
@@ -258,134 +330,172 @@
       "word": "waste",
       "cn": "废料，废弃物",
       "file": "音频/单词/Unit2/01_waste.mp3",
-      "start": 0.05,
-      "end": 2.745
+      "start": 5.868,
+      "end": 6.604,
+      "dur": 0.736,
+      "verified": true
     },
     {
       "word": "plastic",
       "cn": "塑料制的",
       "file": "音频/单词/Unit2/02_plastic.mp3",
-      "start": 2.845,
-      "end": 5.222
+      "start": 8.495,
+      "end": 9.206,
+      "dur": 0.712,
+      "verified": true
     },
     {
       "word": "throw",
       "cn": "扔",
       "file": "音频/单词/Unit2/03_throw.mp3",
-      "start": 5.322,
-      "end": 10.088
+      "start": 11.071,
+      "end": 11.602,
+      "dur": 0.531,
+      "verified": true
     },
     {
       "word": "useful",
       "cn": "有用的，有益的",
       "file": "音频/单词/Unit2/04_useful.mp3",
-      "start": 10.188,
-      "end": 12.719
+      "start": 13.937,
+      "end": 14.644,
+      "dur": 0.707,
+      "verified": true
     },
     {
       "word": "Yours",
       "cn": "（用于书信结尾）你真的",
       "file": "音频/单词/Unit2/05_Yours.mp3",
-      "start": 12.819,
-      "end": 15.633
+      "start": 16.722,
+      "end": 17.407,
+      "dur": 0.684,
+      "verified": true
     },
     {
       "word": "recycle",
       "cn": "再利用，回收利用",
       "file": "音频/单词/Unit2/06_recycle.mp3",
-      "start": 15.733,
-      "end": 18.378
+      "start": 19.449,
+      "end": 20.209,
+      "dur": 0.76,
+      "verified": true
     },
     {
       "word": "each",
       "cn": "每个，各",
       "file": "音频/单词/Unit2/07_each.mp3",
-      "start": 18.478,
-      "end": 21.177
+      "start": 22.245,
+      "end": 22.772,
+      "dur": 0.528,
+      "verified": true
     },
     {
       "word": "over",
       "cn": "大于，高于，超出",
       "file": "音频/单词/Unit2/08_over.mp3",
-      "start": 21.277,
-      "end": 23.737
+      "start": 24.802,
+      "end": 25.352,
+      "dur": 0.55,
+      "verified": true
     },
     {
       "word": "metal",
       "cn": "金属",
       "file": "音频/单词/Unit2/09_metal.mp3",
-      "start": 23.837,
-      "end": 26.396
+      "start": 27.541,
+      "end": 28.134,
+      "dur": 0.593,
+      "verified": true
     },
     {
       "word": "into",
       "cn": "（表示状态的改变）",
       "file": "音频/单词/Unit2/10_into.mp3",
-      "start": 26.496,
-      "end": 29.101
+      "start": 30.167,
+      "end": 30.822,
+      "dur": 0.654,
+      "verified": true
     },
     {
       "word": "turn into",
       "cn": "变成",
       "file": "音频/单词/Unit2/11_turn_into.mp3",
-      "start": 29.201,
-      "end": 34.768
+      "start": 32.594,
+      "end": 33.669,
+      "dur": 1.076,
+      "verified": true
     },
     {
       "word": "newspaper",
       "cn": "报纸",
       "file": "音频/单词/Unit2/12_newspaper.mp3",
-      "start": 34.868,
-      "end": 37.942
+      "start": 35.966,
+      "end": 36.88,
+      "dur": 0.914,
+      "verified": true
     },
     {
       "word": "flat",
       "cn": "平的",
       "file": "音频/单词/Unit2/13_flat.mp3",
-      "start": 38.042,
-      "end": 40.766
+      "start": 39.104,
+      "end": 39.728,
+      "dur": 0.624,
+      "verified": true
     },
     {
       "word": "beginning",
       "cn": "开始，开端，起点",
       "file": "音频/单词/Unit2/14_beginning.mp3",
-      "start": 40.866,
-      "end": 43.42
+      "start": 41.903,
+      "end": 42.509,
+      "dur": 0.605,
+      "verified": true
     },
     {
       "word": "off",
       "cn": "从（某物）上移开",
       "file": "音频/单词/Unit2/15_off.mp3",
-      "start": 43.52,
-      "end": 45.639
+      "start": 44.431,
+      "end": 44.948,
+      "dur": 0.517,
+      "verified": true
     },
     {
       "word": "take off",
       "cn": "拿掉；移去",
       "file": "音频/单词/Unit2/16_take_off.mp3",
-      "start": 45.739,
-      "end": 48.101
+      "start": 46.43,
+      "end": 47.465,
+      "dur": 1.035,
+      "verified": true
     },
     {
       "word": "seat",
       "cn": "座，座位",
       "file": "音频/单词/Unit2/17_seat.mp3",
-      "start": 48.201,
-      "end": 50.562
+      "start": 48.836,
+      "end": 49.489,
+      "dur": 0.653,
+      "verified": true
     },
     {
       "word": "land",
       "cn": "陆地",
       "file": "音频/单词/Unit2/18_land.mp3",
-      "start": 50.662,
-      "end": 53.378
+      "start": 51.734,
+      "end": 52.433,
+      "dur": 0.699,
+      "verified": true
     },
     {
       "word": "shop",
       "cn": "商店",
       "file": "音频/单词/Unit2/19_shop.mp3",
-      "start": 53.478,
-      "end": 57.6
+      "start": 54.423,
+      "end": 54.762,
+      "dur": 0.339,
+      "verified": true
     }
   ],
   "Unit 3": [
@@ -393,99 +503,127 @@
       "word": "friendship",
       "cn": "友谊，朋友关系",
       "file": "音频/单词/Unit3/01_friendship.mp3",
-      "start": 0.05,
-      "end": 2.825
+      "start": 5.416,
+      "end": 6.253,
+      "dur": 0.836,
+      "verified": true
     },
     {
       "word": "unhappy",
       "cn": "伤心的，难过的，不开心的",
       "file": "音频/单词/Unit3/02_unhappy.mp3",
-      "start": 2.925,
-      "end": 5.7
+      "start": 8.212,
+      "end": 8.97,
+      "dur": 0.758,
+      "verified": true
     },
     {
       "word": "both",
       "cn": "两个都",
       "file": "音频/单词/Unit3/03_both.mp3",
-      "start": 5.8,
-      "end": 8.575
+      "start": 11.126,
+      "end": 11.658,
+      "dur": 0.532,
+      "verified": true
     },
     {
       "word": "funny",
       "cn": "有趣的",
       "file": "音频/单词/Unit3/04_funny.mp3",
-      "start": 8.675,
-      "end": 11.45
+      "start": 13.351,
+      "end": 13.86,
+      "dur": 0.509,
+      "verified": true
     },
     {
       "word": "musical",
       "cn": "擅长音乐的；对音乐感兴趣的",
       "file": "音频/单词/Unit3/05_musical.mp3",
-      "start": 11.55,
-      "end": 14.325
+      "start": 15.984,
+      "end": 16.67,
+      "dur": 0.686,
+      "verified": true
     },
     {
       "word": "difference",
       "cn": "差别，差异",
       "file": "音频/单词/Unit3/06_difference.mp3",
-      "start": 14.425,
-      "end": 17.2
+      "start": 18.904,
+      "end": 19.303,
+      "dur": 0.399,
+      "verified": true
     },
     {
       "word": "er",
       "cn": "嗯，哦",
       "file": "音频/单词/Unit3/07_er.mp3",
-      "start": 17.3,
-      "end": 20.075
+      "start": 21.127,
+      "end": 21.821,
+      "dur": 0.694,
+      "verified": true
     },
     {
       "word": "rabbit",
       "cn": "兔",
       "file": "音频/单词/Unit3/08_rabbit.mp3",
-      "start": 20.175,
-      "end": 22.95
+      "start": 23.78,
+      "end": 24.205,
+      "dur": 0.425,
+      "verified": true
     },
     {
       "word": "key",
       "cn": "关键",
       "file": "音频/单词/Unit3/09_key.mp3",
-      "start": 23.05,
-      "end": 25.825
+      "start": 26.226,
+      "end": 26.925,
+      "dur": 0.699,
+      "verified": true
     },
     {
       "word": "parent",
       "cn": "父，母",
       "file": "音频/单词/Unit3/10_parent.mp3",
-      "start": 25.925,
-      "end": 28.7
+      "start": 29.084,
+      "end": 29.522,
+      "dur": 0.439,
+      "verified": true
     },
     {
       "word": "tip",
       "cn": "窍门，忠告，建议",
       "file": "音频/单词/Unit3/11_tip.mp3",
-      "start": 28.8,
-      "end": 31.575
+      "start": 31.372,
+      "end": 31.968,
+      "dur": 0.596,
+      "verified": true
     },
     {
       "word": "similar",
       "cn": "相似的",
       "file": "音频/单词/Unit3/12_similar.mp3",
-      "start": 31.675,
-      "end": 34.45
+      "start": 34.039,
+      "end": 34.595,
+      "dur": 0.556,
+      "verified": true
     },
     {
       "word": "plan",
       "cn": "计划",
       "file": "音频/单词/Unit3/13_plan.mp3",
-      "start": 34.55,
-      "end": 37.325
+      "start": 37.01,
+      "end": 37.735,
+      "dur": 0.724,
+      "verified": true
     },
     {
       "word": "openly",
       "cn": "坦诚地",
-      "file": "音频/单词/Unit3/14_openly.mp3",
-      "start": 37.425,
-      "end": 40.2
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     }
   ],
   "Unit 4": [
@@ -493,169 +631,217 @@
       "word": "goal",
       "cn": "目标，目的",
       "file": "音频/单词/Unit4/01_goal.mp3",
-      "start": 0.05,
-      "end": 2.806
+      "start": 5.841,
+      "end": 6.279,
+      "dur": 0.438,
+      "verified": true
     },
     {
       "word": "drink",
       "cn": "喝",
       "file": "音频/单词/Unit4/02_drink.mp3",
-      "start": 2.906,
-      "end": 5.242
+      "start": 8.31,
+      "end": 8.882,
+      "dur": 0.571,
+      "verified": true
     },
     {
       "word": "healthily",
       "cn": "健康地",
       "file": "音频/单词/Unit4/03_healthily.mp3",
-      "start": 5.342,
-      "end": 7.245
+      "start": 10.866,
+      "end": 11.574,
+      "dur": 0.708,
+      "verified": true
     },
     {
       "word": "exercise",
       "cn": "运动，锻炼",
       "file": "音频/单词/Unit4/04_exercise.mp3",
-      "start": 7.345,
-      "end": 9.824
+      "start": 13.329,
+      "end": 14.299,
+      "dur": 0.97,
+      "verified": true
     },
     {
       "word": "survey",
       "cn": "调查",
       "file": "音频/单词/Unit4/05_survey.mp3",
-      "start": 9.924,
-      "end": 12.402
+      "start": 15.656,
+      "end": 16.432,
+      "dur": 0.776,
+      "verified": true
     },
     {
       "word": "top",
       "cn": "最高的",
       "file": "音频/单词/Unit4/06_top.mp3",
-      "start": 12.502,
-      "end": 14.928
+      "start": 17.386,
+      "end": 18.551,
+      "dur": 1.164,
+      "verified": true
     },
     {
       "word": "test",
       "cn": "测验，测试",
       "file": "音频/单词/Unit4/07_test.mp3",
-      "start": 15.028,
-      "end": 16.859
+      "start": 20.076,
+      "end": 20.776,
+      "dur": 0.7,
+      "verified": true
     },
     {
       "word": "October",
       "cn": "十月",
       "file": "音频/单词/Unit4/08_October.mp3",
-      "start": 16.959,
-      "end": 19.263
+      "start": 22.472,
+      "end": 23.246,
+      "dur": 0.775,
+      "verified": true
     },
     {
       "word": "complete",
       "cn": "使完整",
       "file": "音频/单词/Unit4/09_complete.mp3",
-      "start": 19.363,
-      "end": 21.574
+      "start": 25.011,
+      "end": 25.796,
+      "dur": 0.785,
+      "verified": true
     },
     {
       "word": "sentence",
       "cn": "句子",
       "file": "音频/单词/Unit4/10_sentence.mp3",
-      "start": 21.674,
-      "end": 24.079
+      "start": 27.624,
+      "end": 28.501,
+      "dur": 0.877,
+      "verified": true
     },
     {
       "word": "November",
       "cn": "十一月",
       "file": "音频/单词/Unit4/11_November.mp3",
-      "start": 24.179,
-      "end": 26.66
+      "start": 30.657,
+      "end": 31.42,
+      "dur": 0.763,
+      "verified": true
     },
     {
       "word": "match",
       "cn": "体育比赛，竞赛",
       "file": "音频/单词/Unit4/12_match.mp3",
-      "start": 26.76,
-      "end": 29.529
+      "start": 33.413,
+      "end": 34.084,
+      "dur": 0.67,
+      "verified": true
     },
     {
       "word": "late",
       "cn": "迟到的",
       "file": "音频/单词/Unit4/13_late.mp3",
-      "start": 29.629,
-      "end": 32.367
+      "start": 36.265,
+      "end": 36.843,
+      "dur": 0.579,
+      "verified": true
     },
     {
       "word": "be late for school",
       "cn": "上学迟到",
       "file": "音频/单词/Unit4/14_be_late_for_school.mp3",
-      "start": 32.467,
-      "end": 35.124
+      "start": 38.39,
+      "end": 39.583,
+      "dur": 1.192,
+      "verified": true
     },
     {
       "word": "before",
       "cn": "在……以前",
       "file": "音频/单词/Unit4/15_before.mp3",
-      "start": 35.224,
-      "end": 37.567
+      "start": 41.385,
+      "end": 42.01,
+      "dur": 0.625,
+      "verified": true
     },
     {
       "word": "sell",
       "cn": "卖，出售",
       "file": "音频/单词/Unit4/16_sell.mp3",
-      "start": 37.667,
-      "end": 40.434
+      "start": 43.854,
+      "end": 44.441,
+      "dur": 0.587,
+      "verified": true
     },
     {
       "word": "buy",
       "cn": "买，购买",
       "file": "音频/单词/Unit4/17_buy.mp3",
-      "start": 40.534,
-      "end": 42.882
+      "start": 46.451,
+      "end": 46.879,
+      "dur": 0.428,
+      "verified": true
     },
     {
       "word": "medicine",
       "cn": "药，药物",
       "file": "音频/单词/Unit4/18_medicine.mp3",
-      "start": 42.982,
-      "end": 45.396
+      "start": 48.827,
+      "end": 49.523,
+      "dur": 0.696,
+      "verified": true
     },
     {
       "word": "hurry",
       "cn": "赶紧，匆忙（地走）",
       "file": "音频/单词/Unit4/19_hurry.mp3",
-      "start": 45.496,
-      "end": 47.803
+      "start": 51.671,
+      "end": 52.145,
+      "dur": 0.473,
+      "verified": true
     },
     {
       "word": "classroom",
       "cn": "教室，课堂",
       "file": "音频/单词/Unit4/20_classroom.mp3",
-      "start": 47.903,
-      "end": 50.547
+      "start": 54.594,
+      "end": 55.362,
+      "dur": 0.769,
+      "verified": true
     },
     {
       "word": "afraid",
       "cn": "害怕的，恐惧的",
       "file": "音频/单词/Unit4/21_afraid.mp3",
-      "start": 50.647,
-      "end": 53.319
+      "start": 57.289,
+      "end": 58.045,
+      "dur": 0.757,
+      "verified": true
     },
     {
       "word": "set",
       "cn": "创造（纪录）",
-      "file": "音频/单词/Unit4/22_set.mp3",
-      "start": 53.419,
-      "end": 56.275
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "record",
       "cn": "（尤指体育运动的）纪录",
-      "file": "音频/单词/Unit4/23_record.mp3",
-      "start": 56.375,
-      "end": 58.968
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     },
     {
       "word": "metre",
       "cn": "米",
-      "file": "音频/单词/Unit4/24_metre.mp3",
-      "start": 59.068,
-      "end": 59.95
+      "file": "",
+      "start": 0,
+      "end": 0,
+      "dur": 0,
+      "verified": false
     }
   ],
   "Unit 5": [
@@ -663,99 +849,127 @@
       "word": "future",
       "cn": "将来，未来",
       "file": "音频/单词/Unit5/01_future.mp3",
-      "start": 0.05,
-      "end": 2.691
+      "start": 5.736,
+      "end": 6.447,
+      "dur": 0.71,
+      "verified": true
     },
     {
       "word": "moon",
       "cn": "月亮",
       "file": "音频/单词/Unit5/02_moon.mp3",
-      "start": 2.791,
-      "end": 7.357
+      "start": 8.366,
+      "end": 8.884,
+      "dur": 0.518,
+      "verified": true
     },
     {
       "word": "drive",
       "cn": "开车，驾驶",
       "file": "音频/单词/Unit5/03_drive.mp3",
-      "start": 7.457,
-      "end": 9.821
+      "start": 10.858,
+      "end": 11.527,
+      "dur": 0.668,
+      "verified": true
     },
     {
       "word": "pet",
       "cn": "宠物",
       "file": "音频/单词/Unit5/04_pet.mp3",
-      "start": 9.921,
-      "end": 12.362
+      "start": 13.296,
+      "end": 13.825,
+      "dur": 0.529,
+      "verified": true
     },
     {
       "word": "space",
       "cn": "太空",
       "file": "音频/单词/Unit5/05_space.mp3",
-      "start": 12.462,
-      "end": 14.929
+      "start": 16.132,
+      "end": 16.926,
+      "dur": 0.794,
+      "verified": true
     },
     {
       "word": "danger",
       "cn": "危险",
       "file": "音频/单词/Unit5/06_danger.mp3",
-      "start": 15.029,
-      "end": 17.894
+      "start": 18.962,
+      "end": 19.579,
+      "dur": 0.617,
+      "verified": true
     },
     {
       "word": "glass",
       "cn": "玻璃",
       "file": "音频/单词/Unit5/07_glass.mp3",
-      "start": 17.994,
-      "end": 20.742
+      "start": 22.004,
+      "end": 22.747,
+      "dur": 0.743,
+      "verified": true
     },
     {
       "word": "celebrate",
       "cn": "庆祝",
       "file": "音频/单词/Unit5/08_celebrate.mp3",
-      "start": 20.842,
-      "end": 23.909
+      "start": 25.17,
+      "end": 25.996,
+      "dur": 0.826,
+      "verified": true
     },
     {
       "word": "hundred",
       "cn": "一百",
       "file": "音频/单词/Unit5/09_hundred.mp3",
-      "start": 24.009,
-      "end": 29.672
+      "start": 28.037,
+      "end": 28.684,
+      "dur": 0.647,
+      "verified": true
     },
     {
       "word": "pie",
       "cn": "馅饼，派",
       "file": "音频/单词/Unit5/10_pie.mp3",
-      "start": 29.772,
-      "end": 32.214
+      "start": 30.76,
+      "end": 31.231,
+      "dur": 0.471,
+      "verified": true
     },
     {
       "word": "fries",
       "cn": "炸薯条",
       "file": "音频/单词/Unit5/11_fries.mp3",
-      "start": 32.314,
-      "end": 35.202
+      "start": 33.297,
+      "end": 34.072,
+      "dur": 0.775,
+      "verified": true
     },
     {
       "word": "bright",
       "cn": "（前途）光明的；明亮的",
       "file": "音频/单词/Unit5/12_bright.mp3",
-      "start": 35.302,
-      "end": 37.991
+      "start": 36.432,
+      "end": 37.008,
+      "dur": 0.576,
+      "verified": true
     },
     {
       "word": "shape",
       "cn": "形，形状，外形",
       "file": "音频/单词/Unit5/13_shape.mp3",
-      "start": 38.091,
-      "end": 40.544
+      "start": 39.075,
+      "end": 39.623,
+      "dur": 0.548,
+      "verified": true
     },
     {
       "word": "pill",
       "cn": "药丸，药片",
       "file": "音频/单词/Unit5/14_pill.mp3",
-      "start": 40.644,
-      "end": 44.1
+      "start": 41.565,
+      "end": 41.984,
+      "dur": 0.419,
+      "verified": true
     }
   ],
   "Unit 6": [
@@ -763,57 +977,73 @@
       "word": "mooncake",
       "cn": "月饼",
       "file": "音频/单词/Unit6/01_mooncake.mp3",
-      "start": 0.05,
-      "end": 4.479
+      "start": 5.022,
+      "end": 5.642,
+      "dur": 0.62,
+      "verified": true
     },
     {
       "word": "September",
       "cn": "九月",
       "file": "音频/单词/Unit6/02_September.mp3",
-      "start": 4.579,
-      "end": 8.694
+      "start": 7.098,
+      "end": 7.948,
+      "dur": 0.85,
+      "verified": true
     },
     {
       "word": "zookeeper",
       "cn": "动物园饲养员",
       "file": "音频/单词/Unit6/03_zookeeper.mp3",
-      "start": 8.794,
-      "end": 11.295
+      "start": 9.54,
+      "end": 10.445,
+      "dur": 0.905,
+      "verified": true
     },
     {
       "word": "candle",
       "cn": "蜡烛",
       "file": "音频/单词/Unit6/04_candle.mp3",
-      "start": 11.395,
-      "end": 16.788
+      "start": 12.245,
+      "end": 13.111,
+      "dur": 0.867,
+      "verified": true
     },
     {
       "word": "merry",
       "cn": "快乐的",
       "file": "音频/单词/Unit6/05_merry.mp3",
-      "start": 16.888,
-      "end": 19.657
+      "start": 15.016,
+      "end": 15.665,
+      "dur": 0.649,
+      "verified": true
     },
     {
       "word": "Merry Christmas!",
       "cn": "圣诞快乐！",
       "file": "音频/单词/Unit6/06_Merry_Christmas!.mp3",
-      "start": 19.757,
-      "end": 23.238
+      "start": 18.011,
+      "end": 18.581,
+      "dur": 0.57,
+      "verified": true
     },
     {
       "word": "celebration",
       "cn": "庆祝；庆祝活动",
       "file": "音频/单词/Unit6/07_celebration.mp3",
-      "start": 23.338,
-      "end": 26.521
+      "start": 20.833,
+      "end": 22.103,
+      "dur": 1.27,
+      "verified": true
     },
     {
       "word": "bell",
       "cn": "钟；铃",
       "file": "音频/单词/Unit6/08_bell.mp3",
-      "start": 26.621,
-      "end": 31.87
+      "start": 24.474,
+      "end": 25.541,
+      "dur": 1.067,
+      "verified": true
     }
   ]
 }
