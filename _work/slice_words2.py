@@ -87,10 +87,13 @@ for unit, words in wordlist.items():
         fname = f"{i:02d}_{safe}.mp3"
         dst = os.path.join(udir, fname)
         a = max(0, st+0.05); b = min(dur, en-0.05)
-        subprocess.run([FF, "-y", "-i", src, "-ss", f"{a:.3f}", "-to", f"{b:.3f}",
-                        "-c", "copy", "-avoid_negative_ts", "make_zero", dst],
+        # 用 -ss 放在 -i 前先精确定位，再重新编码为标准 mp3。
+        # 不能用 -c copy：从非关键帧切割会产生浏览器无法解析的文件（时长显示 0:00、一直转圈）。
+        subprocess.run([FF, "-y", "-ss", f"{a:.3f}", "-i", src,
+                        "-t", f"{b-a:.3f}", "-vn", "-ac", "1", "-ar", "44100",
+                        "-c:a", "libmp3lame", "-b:a", "96k", dst],
                        capture_output=True)
-        entries.append({"word": word, "cn": w[1], "file": f"单词/{unit.replace(' ','')}/{fname}",
+        entries.append({"word": word, "cn": w[1], "file": f"音频/单词/{unit.replace(' ','')}/{fname}",
                         "start": round(a, 3), "end": round(b, 3)})
     result[unit] = entries
     print(f"[{unit}] 词 {n} 音频 {dur:.1f}s 静音边界 {len(sil)} 切片 {len(segs)}", flush=True)
