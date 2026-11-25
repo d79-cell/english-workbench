@@ -1,0 +1,1094 @@
+{
+  "meta": {
+    "title": "五年级英语每日工作台",
+    "term": "外研版三起点五年级上册 · 2026新版",
+    "start": "2026-11-26",
+    "end": "2026-12-25",
+    "note": "每天三段：① 听音跟读录音 8′　② 语法造句 12′　③ 词汇阅读 10′"
+  },
+  "days": [
+    {
+      "date": "2026-11-26",
+      "week": "四",
+      "unit": "Unit 4",
+      "phase": "第1周·Unit4扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 4 Start up 音频（Lingling 的日记）",
+          "detail": "盲听 2 遍＋跟读 3 句录音",
+          "src": "音频/019-Unit 4_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "认句型：What's Lingling going to do?",
+          "detail": "→ 仿 1 句 → 自造 1 句",
+          "examples": [
+            "What's Lingling going to do?（原句）",
+            "What are you going to do this weekend?（仿写）",
+            "What is your father going to do tomorrow?（自造）"
+          ],
+          "point": "be going to + 动词原形：打算做某事"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 4 词表前 5 个",
+          "detail": "先听读音，再默写，最后对照",
+          "words": [
+            "goal",
+            "drink",
+            "healthily",
+            "exercise",
+            "survey"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "week": "五",
+      "unit": "Unit 4",
+      "phase": "第1周·Unit4扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 4 Speed up 课文《A word on the desk》音频",
+          "detail": "跟读开头 3 句",
+          "src": "音频/020-Unit 4_2 Speed up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "I'm going to... → 换个动作仿写",
+          "detail": "→ 写自己今天打算做的事 1 句",
+          "examples": [
+            "I'm going to work harder at English.（原句）",
+            "I'm going to read more books.（仿写）",
+            "I'm going to help my mum this evening.（自造）"
+          ],
+          "point": "be going to 后接动词原形"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 4 词表 5 个",
+          "detail": "先听读音，再默写，最后对照",
+          "words": [
+            "top",
+            "test",
+            "October",
+            "complete",
+            "sentence"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "week": "六",
+      "unit": "Unit 4",
+      "phase": "第1周·Unit4扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 4 In focus 页音频",
+          "detail": "重点跟读 going to 的句子，录音 3 句",
+          "src": "音频/019-Unit 4_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "What are you going to do this weekend?",
+          "detail": "自问自答 3 组",
+          "examples": [
+            "What are you going to do this weekend? — I'm going to play football.",
+            "What are you going to do tomorrow? — I'm going to visit my grandma.",
+            "What are you going to do after school? — I'm going to do my homework."
+          ],
+          "point": "问句 What are you going to do...? 答句 I'm going to..."
+        },
+        {
+          "type": "reading",
+          "title": "Oxford Owl 免费电子书读 1 本短绘本",
+          "detail": "网址 oxfordowl.co.uk，读后说 3 句话大意",
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "week": "日",
+      "unit": "Unit 4",
+      "phase": "第1周·Unit4扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "复听本周 Unit 4 音频",
+          "detail": "挑 3 句重录，和昨天的录音对比",
+          "src": "音频/019-Unit 4_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "整理本周 going to 的句子",
+          "detail": "写进错词本，读一遍",
+          "examples": [
+            "I'm going to work harder at English.",
+            "What are you going to do this weekend?",
+            "She's going to read more books."
+          ],
+          "point": "复习 be going to 的陈述句和问句"
+        },
+        {
+          "type": "words",
+          "title": "复习听写错词",
+          "detail": "错词本里 Unit 4 部分再听写一遍",
+          "words": [
+            "goal",
+            "healthily",
+            "exercise",
+            "October",
+            "sentence"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "week": "一",
+      "unit": "Unit 4",
+      "phase": "第1周·Unit4扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 4 Fuel up 韵律诗＋ai/ay 发音词",
+          "detail": "跟读 afraid, may；录音 3 句",
+          "src": "音频/021-Unit 4_3 Fuel up_1 Listen and chant.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "want to + 动词：I want to do better in school.",
+          "detail": "→ 仿 2 句",
+          "examples": [
+            "I want to do better in school.（原句）",
+            "I want to read more books.（仿写）",
+            "I want to exercise every day.（自造）"
+          ],
+          "point": "want to + 动词原形：想要做某事"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 4 词表 5 个",
+          "detail": "先听读音，再默写，最后对照",
+          "words": [
+            "November",
+            "match",
+            "late",
+            "before",
+            "sell"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "week": "二",
+      "unit": "Unit 4",
+      "phase": "第1周·Unit4扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 4 全文跟读一遍",
+          "detail": "录音 3 句（含 1 句 going to、1 句 want to）",
+          "src": "音频/024-Unit 4_4 Words and expressions.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "合并造句",
+          "detail": "用 going to 和 want to 各造 2 句写下来",
+          "examples": [
+            "I'm going to be a doctor in the future.",
+            "I want to help sick people.",
+            "She's going to learn English well.",
+            "He wants to play basketball."
+          ],
+          "point": "going to = 打算；want to = 想要"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 4 词表 5 个",
+          "detail": "先听读音，再默写，最后对照",
+          "words": [
+            "goal",
+            "test",
+            "October",
+            "November",
+            "sell"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "week": "三",
+      "unit": "Unit 4",
+      "phase": "第1周·Unit4扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 4 音频盲听 1 段",
+          "detail": "不看文本，复述大意",
+          "src": "音频/019-Unit 4_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "看图/看中文提示说 3 句 going to",
+          "detail": "口头也行，录音",
+          "examples": [
+            "我打算读书 → I'm going to read books.",
+            "他打算跑步 → He's going to run.",
+            "我们打算打扫教室 → We're going to clean the classroom."
+          ],
+          "point": "把中文意思转成 be going to 句型"
+        },
+        {
+          "type": "review",
+          "title": "错词本全部过一遍",
+          "detail": "读绘本 1 本（Oxford Owl）",
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "week": "四",
+      "unit": "Unit 1",
+      "phase": "第2周·Unit1-3扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 1《A letter from your stomach》音频",
+          "detail": "跟读 3 句",
+          "src": "音频/002-Unit 1_2 Speed up_1 Read and write.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "should / shouldn't：I should eat more vegetables.",
+          "detail": "→ 仿 2 句",
+          "examples": [
+            "I should eat more vegetables.（原句）",
+            "You shouldn't eat too much candy.（仿写）",
+            "I should wash my hands before meals.（自造）"
+          ],
+          "point": "should / shouldn't + 动词原形：提建议"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 1 核心词 5 个",
+          "detail": "先听读音，再默写，最后对照",
+          "words": [
+            "plate",
+            "fruit",
+            "candy",
+            "soup",
+            "potato"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "week": "五",
+      "unit": "Unit 1",
+      "phase": "第2周·Unit1-3扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 1 Fuel up 韵律诗＋ow/oa 发音",
+          "detail": "跟读，录音 3 句",
+          "src": "音频/003-Unit 1_3 Fuel up_1 Listen and chant.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "You shouldn't... 给家人提 2 条健康建议",
+          "detail": "写下来并读出",
+          "examples": [
+            "You shouldn't eat too much sugar.",
+            "You shouldn't go to bed late."
+          ],
+          "point": "shouldn't = should not，后接动词原形"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 1 词 5 个 + 绘本 1 本",
+          "detail": "绘本见 Oxford Owl",
+          "words": [
+            "bread",
+            "biscuit",
+            "healthy",
+            "problem",
+            "slow"
+          ],
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-05",
+      "week": "六",
+      "unit": "Unit 2",
+      "phase": "第2周·Unit1-3扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 2《Milk box magic》音频",
+          "detail": "跟读 3 句",
+          "src": "音频/008-Unit 2_2 Speed up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "We should reuse... / Don't... 环保各造 2 句",
+          "detail": "写下来",
+          "examples": [
+            "We should reuse plastic bottles.",
+            "We should save water.",
+            "Don't use plastic bags!",
+            "Don't waste electricity."
+          ],
+          "point": "should 表义务；Don't + 动词原形 = 祈使句否定"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 2 核心词 5 个",
+          "detail": "先听读音，再默写，最后对照",
+          "words": [
+            "waste",
+            "plastic",
+            "recycle",
+            "metal",
+            "newspaper"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-06",
+      "week": "日",
+      "unit": "Unit 2",
+      "phase": "第2周·Unit1-3扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 2 Fuel up \"Don't use plastic every day\"＋ea/ee 发音",
+          "detail": "跟读，录音 3 句",
+          "src": "音频/009-Unit 2_3 Fuel up_1 Listen and chant.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "用 should 和 Don't 写 3 条班级环保倡议",
+          "detail": "写下来并读出",
+          "examples": [
+            "We should turn off the lights.",
+            "Don't throw rubbish everywhere.",
+            "Let's reuse old paper."
+          ],
+          "point": "倡议 = should + Don't + Let's"
+        },
+        {
+          "type": "words",
+          "title": "复习错词 + 绘本 1 本",
+          "detail": "错词本 Unit 2 部分",
+          "words": [
+            "flat",
+            "beginning",
+            "seat",
+            "land",
+            "shop"
+          ],
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-07",
+      "week": "一",
+      "unit": "Unit 3",
+      "phase": "第2周·Unit1-3扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 3 课文《The new kid and the dog》音频",
+          "detail": "跟读 3 句",
+          "src": "音频/013-Unit 3_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "because：I'm happy because...",
+          "detail": "→ 仿 2 句",
+          "examples": [
+            "I'm unhappy because I have no friends here.（原句）",
+            "I'm happy because today is my birthday.（仿写）",
+            "He is sad because he lost his dog.（自造）"
+          ],
+          "point": "because + 完整句子：说明原因"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 3 核心词 5 个",
+          "detail": "先听读音，再默写，最后对照",
+          "words": [
+            "friendship",
+            "unhappy",
+            "both",
+            "funny",
+            "difference"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-08",
+      "week": "二",
+      "unit": "Unit 3",
+      "phase": "第2周·Unit1-3扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 3 Fuel up \"We're friends again!\"＋ew/ow 发音",
+          "detail": "跟读，录音 3 句",
+          "src": "音频/015-Unit 3_3 Fuel up_1 Listen and chant.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "but：We are different, but we are friends.",
+          "detail": "→ 自造 2 句",
+          "examples": [
+            "We are different, but we are friends.（原句）",
+            "He is young, but he is very strong.（自造）",
+            "I am sad, but I am happy to see you.（自造）"
+          ],
+          "point": "but 连接转折的两个句子"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 3 词 5 个 + 绘本 1 本",
+          "detail": "绘本见 Oxford Owl",
+          "words": [
+            "rabbit",
+            "key",
+            "parent",
+            "tip",
+            "similar"
+          ],
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "week": "三",
+      "unit": "Unit 1-3",
+      "phase": "第2周·Unit1-3扎实化",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 1—3 音频各盲听 1 小段",
+          "detail": "说大意",
+          "src": "音频/001-Unit 1_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "混合造句：should / because / but 各 1 句",
+          "detail": "写下来",
+          "examples": [
+            "You should eat healthy food.",
+            "I'm happy because I have good friends.",
+            "We are different, but we are happy together."
+          ],
+          "point": "三个句型混合运用"
+        },
+        {
+          "type": "words",
+          "title": "错词本全过 + 绘本 1 本",
+          "detail": "Unit 1—3 错词",
+          "words": [
+            "plan",
+            "openly",
+            "healthy",
+            "recycle",
+            "friendship"
+          ],
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-10",
+      "week": "四",
+      "unit": "Unit 5",
+      "phase": "第3周·Unit5超前",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 5 Start up 音频",
+          "detail": "跟读 3 句",
+          "src": "音频/025-Unit 5_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "认 will + 动词原形：I will...",
+          "detail": "→ 仿 2 句",
+          "examples": [
+            "I will study hard.（仿写）",
+            "People will live in smart houses.（课文句）",
+            "I will be a teacher in the future.（自造）"
+          ],
+          "point": "will + 动词原形：预测将来；各人称一样"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 5 真实词 5 个",
+          "detail": "先听读音，再默写，最后对照",
+          "words": [
+            "future",
+            "moon",
+            "drive",
+            "pet",
+            "space"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-11",
+      "week": "五",
+      "unit": "Unit 5",
+      "phase": "第3周·Unit5超前",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 5 音频再听 2 遍",
+          "detail": "跟读录音",
+          "src": "音频/025-Unit 5_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "will 否定 I won't...",
+          "detail": "→ 仿 2 句",
+          "examples": [
+            "I won't be late again.",
+            "Robots won't do all the work.",
+            "I won't watch TV too much."
+          ],
+          "point": "won't = will not，后接动词原形"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 5 词 5 个",
+          "detail": "先听读音，再默写，最后对照",
+          "words": [
+            "danger",
+            "glass",
+            "celebrate",
+            "hundred",
+            "pie"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "week": "六",
+      "unit": "Unit 4+5",
+      "phase": "第3周·Unit5超前",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 4＋5 音频混听",
+          "detail": "各录 2 句，对比 going to 和 will",
+          "src": "音频/025-Unit 5_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "比较 will 与 be going to（预测 vs 打算）",
+          "detail": "各造 2 句",
+          "examples": [
+            "It will rain tomorrow.（预测）",
+            "I'm going to play football.（打算）",
+            "I will be a doctor.（预测/理想）",
+            "She's going to visit her grandma.（打算）"
+          ],
+          "point": "will = 预测/临时决定；be going to = 已有计划"
+        },
+        {
+          "type": "reading",
+          "title": "Oxford Owl 绘本 1 本",
+          "detail": "读后复述 3 句",
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-13",
+      "week": "日",
+      "unit": "Unit 5",
+      "phase": "第3周·Unit5超前",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "挑本周最不像的 3 句发音重录",
+          "detail": "对照标准音",
+          "src": "音频/026-Unit 5_2 Speed up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "My future 主题：用 will 说 3 句并写下",
+          "detail": "写下来",
+          "examples": [
+            "I will live in a big city.",
+            "I will have a robot at home.",
+            "I will travel to space."
+          ],
+          "point": "will 谈论将来"
+        },
+        {
+          "type": "words",
+          "title": "复习错词 + 绘本 1 本",
+          "detail": "Unit 5 错词",
+          "words": [
+            "fries",
+            "bright",
+            "shape",
+            "pill"
+          ],
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-14",
+      "week": "一",
+      "unit": "Unit 5",
+      "phase": "第3周·Unit5超前",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 5 音频盲听，复述大意",
+          "detail": "不看文本",
+          "src": "音频/025-Unit 5_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "Will you...? Yes, I will. / No, I won't.",
+          "detail": "问答 3 组",
+          "examples": [
+            "Will you go to the park? — Yes, I will.",
+            "Will you be a teacher? — No, I won't.",
+            "Will it rain tomorrow? — Yes, it will."
+          ],
+          "point": "will 的一般疑问句及回答"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 5 词 5 个",
+          "detail": "先听读音，再默写",
+          "words": [
+            "future",
+            "drive",
+            "space",
+            "glass",
+            "bright"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-15",
+      "week": "二",
+      "unit": "Unit 5",
+      "phase": "第3周·Unit5超前",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 5 全文跟读，录音 3 句",
+          "detail": "重点模仿语音语调",
+          "src": "音频/026-Unit 5_2 Speed up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "写 3 句\"我的未来\"",
+          "detail": "I will...（不限对错，重在会用）",
+          "examples": [
+            "I will study English every day.",
+            "I will help my family.",
+            "I will be happy and healthy."
+          ],
+          "point": "自由运用 will"
+        },
+        {
+          "type": "words",
+          "title": "错词本 Unit 5 部分复习",
+          "detail": "读绘本 1 本",
+          "words": [
+            "pet",
+            "danger",
+            "celebrate",
+            "hundred",
+            "pie"
+          ],
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-16",
+      "week": "三",
+      "unit": "Unit 5",
+      "phase": "第3周·Unit5超前",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 5 韵律诗/语音板块跟读",
+          "detail": "跟读录音",
+          "src": "音频/027-Unit 5_3 Fuel up_1 Listen and chant.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "口头说 5 句 My future city 并录音",
+          "detail": "用 will",
+          "examples": [
+            "There will be robots in my city.",
+            "People will live in tall buildings.",
+            "We will have flying cars.",
+            "There will be parks everywhere.",
+            "I will love my future city."
+          ],
+          "point": "will + There will be"
+        },
+        {
+          "type": "reading",
+          "title": "读绘本 1 本",
+          "detail": "Oxford Owl",
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-17",
+      "week": "四",
+      "unit": "Unit 6",
+      "phase": "第4周·Unit6超前+检验",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 6 Start up 音频",
+          "detail": "跟读 3 句",
+          "src": "音频/031-Unit 6_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "一般现在时表习俗：We eat mooncakes...",
+          "detail": "→ 仿 2 句",
+          "examples": [
+            "We eat mooncakes at the Mid-Autumn Festival.（原句）",
+            "We have a big dinner on Spring Festival.（仿写）",
+            "We eat dumplings on New Year's Day.（自造）"
+          ],
+          "point": "一般现在时表经常性的习俗"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 6 真实词 4 个",
+          "detail": "先听读音，再默写",
+          "words": [
+            "mooncake",
+            "September",
+            "zookeeper",
+            "candle"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-18",
+      "week": "五",
+      "unit": "Unit 6",
+      "phase": "第4周·Unit6超前+检验",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 6 音频再听，跟读录音",
+          "detail": "重点跟读节日名称",
+          "src": "音频/031-Unit 6_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "on + 节日：on Mid-Autumn Festival",
+          "detail": "→ 造 2 句",
+          "examples": [
+            "On Mid-Autumn Festival, we eat mooncakes.",
+            "On Spring Festival, we visit relatives."
+          ],
+          "point": "具体节日/日期前用介词 on"
+        },
+        {
+          "type": "words",
+          "title": "听写 Unit 6 词 4 个",
+          "detail": "先听读音，再默写",
+          "words": [
+            "merry",
+            "celebration",
+            "bell",
+            "mooncake"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-19",
+      "week": "六",
+      "unit": "Unit 6",
+      "phase": "第4周·Unit6超前+检验",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 6 韵律诗/语音跟读",
+          "detail": "跟读录音",
+          "src": "音频/034-Unit 6_3 Fuel up_1 Listen and chant.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "写 My favourite festival 5 句",
+          "detail": "什么节、何时、吃什么、做什么、感受",
+          "examples": [
+            "My favourite festival is the Spring Festival.",
+            "It is in January or February.",
+            "We eat dumplings and have a big dinner.",
+            "We visit our relatives and friends.",
+            "I am very happy at the Spring Festival."
+          ],
+          "point": "按五句话框架写小短文"
+        },
+        {
+          "type": "reading",
+          "title": "绘本 1 本",
+          "detail": "Oxford Owl",
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-20",
+      "week": "日",
+      "unit": "全册",
+      "phase": "第4周·Unit6超前+检验",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "全册挑 6 句自己最不标准的，重录对比",
+          "detail": "对照标准音逐句改",
+          "src": "音频/024-Unit 4_4 Words and expressions.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "画\"语法树\"：每条例句 1 句",
+          "detail": "should / because / but / going to / will / 节日一般现在时",
+          "examples": [
+            "should: You should eat healthy food.",
+            "because: I'm happy because it's Sunday.",
+            "but: We are different, but we are friends.",
+            "going to: I'm going to read more.",
+            "will: I will be a doctor.",
+            "节日: We eat mooncakes on Mid-Autumn Festival."
+          ],
+          "point": "全册六种句型总结"
+        },
+        {
+          "type": "words",
+          "title": "错词本全部复习",
+          "detail": "Unit 1—6 错词过一遍",
+          "words": [
+            "goal",
+            "healthy",
+            "recycle",
+            "friendship",
+            "future",
+            "mooncake"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-21",
+      "week": "一",
+      "unit": "全册",
+      "phase": "第4周·Unit6超前+检验",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "Unit 1—6 各听 1 小段，说大意",
+          "detail": "盲听复述",
+          "src": "音频/037-Plays_Act it out_The tooth house.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "语法树看一遍，口头说出每条规则",
+          "detail": "不看例句说",
+          "examples": [
+            "should 后接动词原形",
+            "because 后面是完整句子",
+            "but 表转折",
+            "be going to 表打算",
+            "will 表预测",
+            "节日习俗用一般现在时"
+          ],
+          "point": "从例句回到规则"
+        },
+        {
+          "type": "words",
+          "title": "Unit 1—6 词表分主题盘点",
+          "detail": "食物/环保/友谊/目标/未来/节日",
+          "words": [
+            "plate",
+            "fruit",
+            "waste",
+            "recycle",
+            "friendship",
+            "goal",
+            "future",
+            "mooncake"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-22",
+      "week": "二",
+      "unit": "全册",
+      "phase": "第4周·Unit6超前+检验",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "裸听一段没听过的课文 2 遍",
+          "detail": "再对照文本",
+          "src": "音频/038-Plays_Act it out_The right box.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "写 3 句本周错题的正确版本",
+          "detail": "从错词本挑 3 句",
+          "examples": [
+            "I'm going to visit my grandma.",
+            "You shouldn't eat too much sugar.",
+            "I'm happy because I have many friends."
+          ],
+          "point": "订正比新学更重要"
+        },
+        {
+          "type": "reading",
+          "title": "Oxford Owl 分级书连读 1 本",
+          "detail": "读后复述",
+          "link": "https://www.oxfordowl.co.uk/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-23",
+      "week": "三",
+      "unit": "全册",
+      "phase": "第4周·Unit6超前+检验",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "录音 3 句，和 D1 的录音对比",
+          "detail": "听出进步",
+          "src": "音频/019-Unit 4_1 Start up_1 Read and answer.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "综合：should / going to / will / because 各造 1 句",
+          "detail": "写下来",
+          "examples": [
+            "You should read every day.",
+            "I'm going to exercise this weekend.",
+            "I will be a good student.",
+            "I'm proud because I made progress."
+          ],
+          "point": "四大句型综合"
+        },
+        {
+          "type": "words",
+          "title": "错词本全过",
+          "detail": "重点复习反复错的词",
+          "words": [
+            "healthily",
+            "October",
+            "November",
+            "beginning",
+            "celebration"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-24",
+      "week": "四",
+      "unit": "全册",
+      "phase": "第4周·Unit6超前+检验",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "盲听 1 段课文，复述大意",
+          "detail": "不看文本",
+          "src": "音频/040-Proper nouns.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "月度检验：认读 10 词＋造句 5 句＋写 3 句未来计划",
+          "detail": "记录在纸上，对照错词本",
+          "examples": [
+            "造句 5 句示例：I should study hard. / I'm going to read. / I will be happy. / I'm sad because... / We are different, but...",
+            "未来计划：I will read English every day. / I will help my family. / I will keep good habits."
+          ],
+          "point": "自我检验，看趋势不看分数"
+        },
+        {
+          "type": "words",
+          "title": "记录四项得分",
+          "detail": "认/用/读/听，各打 1—5 分",
+          "words": [
+            "goal",
+            "exercise",
+            "healthy",
+            "future",
+            "mooncake"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "week": "五",
+      "unit": "全册",
+      "phase": "第4周·Unit6超前+检验",
+      "tasks": [
+        {
+          "type": "audio",
+          "title": "听自己最喜欢的 1 段音频，跟读录音",
+          "detail": "轻松收尾",
+          "src": "音频/021-Unit 4_3 Fuel up_1 Listen and chant.mp3"
+        },
+        {
+          "type": "grammar",
+          "title": "复盘：整理错词本、看语法树、写下个月 1 个小目标",
+          "detail": "写在错词本扉页",
+          "examples": [
+            "下月目标示例：每天读 1 本分级书 / 每周写 1 篇小短文 / 发音练到 3 句全像"
+          ],
+          "point": "定一个具体、能做到的目标"
+        },
+        {
+          "type": "review",
+          "title": "给家长讲这月学了什么",
+          "detail": "3 分钟，讲 3 件事：学了多少词、会造什么句、发音哪里进步了"
+        }
+      ]
+    }
+  ]
+}
