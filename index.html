@@ -2,211 +2,182 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>五年级英语每日工作台</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#0e7c6b">
+<title>英语每日工作台</title>
 <style>
-  :root{--bg:#fbfaf6;--card:#fff;--ink:#1e2a2e;--ink2:#4a5b60;--ink3:#6f7f84;--line:#e4e7e1;
-    --accent:#0e7c6b;--accent-soft:#e7f3ef;--blue:#33628c;--blue-soft:#eaf1f8;--warm:#b5651d;--warm-soft:#fbf0e4}
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;font-size:15px}
-  .wrap{max-width:940px;margin:0 auto;padding:22px 20px 60px}
-  header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;border-bottom:2px solid var(--accent);padding-bottom:14px;margin-bottom:20px}
-  h1{font-size:22px;color:var(--accent)}
-  .sub{font-size:12.5px;color:var(--ink3)}
-  .nav{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-  button{font-family:inherit;cursor:pointer;border:none;border-radius:8px;padding:7px 14px;font-size:13px;background:var(--accent);color:#fff;transition:.15s}
-  button:hover{filter:brightness(1.08)}
-  button.ghost{background:#fff;color:var(--ink2);border:1px solid var(--line)}
-  button.ghost:hover{background:var(--accent-soft);color:var(--accent)}
-  .datebar{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:18px;flex-wrap:wrap}
-  .datebar .big{font-size:19px;font-weight:700;color:var(--ink)}
-  .datebar .tag{background:var(--accent-soft);color:var(--accent);border-radius:12px;padding:3px 11px;font-size:12px}
-  .progress{margin-left:auto;font-size:12.5px;color:var(--ink3)}
-  .task{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:14px;box-shadow:0 2px 10px rgba(20,40,35,.05)}
-  .task-head{display:flex;align-items:flex-start;gap:12px;margin-bottom:12px}
-  .num{width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0}
-  .task-title{font-size:16px;font-weight:600;flex:1}
-  .task-detail{font-size:13.5px;color:var(--ink2);margin-top:2px}
-  .kind{font-size:11px;border-radius:6px;padding:2px 8px;background:var(--blue-soft);color:var(--blue);white-space:nowrap}
-  .kind.grammar{background:var(--warm-soft);color:var(--warm)}
-  .kind.words{background:var(--accent-soft);color:var(--accent)}
-  .body{margin-left:42px}
-  .play{display:inline-flex;align-items:center;gap:7px;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:9px 16px;font-size:14px;cursor:pointer}
-  .play:hover{filter:brightness(1.08)}
-  .play.playing{background:var(--warm)}
-  audio{width:100%;margin-top:10px;height:38px}
-  .examples{margin-top:10px;background:var(--warm-soft);border-radius:9px;padding:12px 15px;font-size:14px}
-  .examples .lbl{font-size:12px;color:var(--warm);font-weight:600;margin-bottom:6px}
-  .examples li{margin:4px 0 4px 18px}
-  .point{margin-top:8px;font-size:12.5px;color:var(--ink3);border-left:3px solid var(--warm);padding-left:10px}
-  .words{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:9px;margin-top:8px}
-  .word{display:flex;align-items:center;gap:8px;background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:9px 11px}
-  .word .w{font-weight:600;flex:1}
-  .word .cn{font-size:12px;color:var(--ink3)}
-  .word .sp{background:#fff;border:1px solid var(--accent);color:var(--accent);border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;cursor:pointer}
-  .word .sp:hover{background:var(--accent);color:#fff}
-  .word .sp.playing{background:var(--warm);border-color:var(--warm);color:#fff}
-  .link{display:inline-block;margin-top:8px;color:var(--blue);font-size:13px}
-  .done{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink3);cursor:pointer;user-select:none}
-  .done input{width:16px;height:16px;accent-color:var(--accent);cursor:pointer}
-  .task.finished{opacity:.62}
-  .foot{margin-top:24px;font-size:12px;color:var(--ink3);text-align:center;line-height:1.9}
-  .hint{background:var(--accent-soft);border-radius:9px;padding:10px 14px;font-size:12.5px;color:var(--accent);margin-bottom:14px}
-  @media(max-width:600px){.body{margin-left:0}.words{grid-template-columns:1fr 1fr}h1{font-size:18px}}
+  :root{
+    --bg:#f7f6f2;--card:#fff;--ink:#1e2a2e;--ink2:#4a5b60;--ink3:#7b878b;
+    --line:#e4e7e1;--accent:#0e7c6b;--accent-soft:#e7f3ef;--blue:#33628c;--blue-soft:#eaf1f8;
+    --warm:#b5651d;--warm-soft:#fbf0e4;--shadow:0 2px 12px rgba(20,40,35,.07);
+    --safe-b:env(safe-area-inset-bottom,0px);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html{font-size:16px}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;font-size:15px;padding-bottom:calc(76px + var(--safe-b))}
+  .top{background:var(--accent);color:#fff;padding:calc(14px + env(safe-area-inset-top,0px)) 16px 14px;position:sticky;top:0;z-index:10;box-shadow:0 2px 8px rgba(14,124,107,.2)}
+  .top h1{font-size:17px;font-weight:600;display:flex;align-items:center;gap:8px}
+  .top h1 .dot{width:8px;height:8px;background:#7fe3c9;border-radius:50%}
+  .top .sub{font-size:11.5px;opacity:.85;margin-top:2px}
+  .wrap{padding:14px 12px 8px}
+
+  .datebar{background:var(--card);border-radius:14px;padding:14px 16px;box-shadow:var(--shadow);margin-bottom:12px;display:flex;align-items:center;gap:12px}
+  .datebar .d{flex:1}
+  .datebar .d1{font-size:20px;font-weight:700;letter-spacing:.3px}
+  .datebar .d2{font-size:12px;color:var(--ink3);margin-top:1px}
+  .ring{width:48px;height:48px;flex-shrink:0;position:relative}
+  .ring svg{transform:rotate(-90deg)}
+  .ring .n{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:var(--accent)}
+
+  .tip{background:var(--warm-soft);border-radius:10px;padding:9px 13px;font-size:12.5px;color:#8a5420;margin-bottom:12px;line-height:1.6}
+
+  .task{background:var(--card);border-radius:14px;padding:15px;margin-bottom:11px;box-shadow:var(--shadow);border-left:4px solid var(--accent)}
+  .task.g2{border-left-color:var(--warm)}.task.g3{border-left-color:var(--blue)}
+  .task.done{opacity:.6}
+  .th{display:flex;align-items:flex-start;gap:10px}
+  .num{background:var(--accent);color:#fff;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0;margin-top:1px}
+  .task.g2 .num{background:var(--warm)}.task.g3 .num{background:var(--blue)}
+  .tt{flex:1;min-width:0}
+  .tt .t1{font-size:15px;font-weight:600;line-height:1.45}
+  .tt .t2{font-size:12.5px;color:var(--ink2);margin-top:3px}
+  .chk{width:30px;height:30px;flex-shrink:0;border:2px solid var(--line);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;color:transparent;background:#fff}
+  .chk.on{background:var(--accent);border-color:var(--accent);color:#fff}
+
+  .body{margin-top:12px}
+  .play{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;background:var(--accent);color:#fff;border:0;border-radius:11px;padding:13px;font-size:15px;font-weight:600;min-height:48px}
+  .play:active{background:#0a6859}
+  .play.on{background:var(--warm)}
+  audio{width:100%;height:40px;margin-top:9px}
+
+  details.ex{margin-top:10px;background:var(--warm-soft);border-radius:10px;overflow:hidden}
+  details.ex summary{padding:11px 13px;font-size:13px;color:var(--warm);font-weight:600;cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px}
+  details.ex summary::-webkit-details-marker{display:none}
+  details.ex summary::after{content:'▾';margin-left:auto;transition:.2s}
+  details.ex[open] summary::after{transform:rotate(180deg)}
+  details.ex .inner{padding:0 13px 12px}
+  details.ex li{font-size:14px;margin:7px 0 7px 18px;line-height:1.6}
+  .point{font-size:12px;color:var(--ink3);margin-top:9px;border-left:3px solid var(--warm);padding-left:9px}
+
+  .words{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .word{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px;display:flex;align-items:center;gap:8px;min-height:54px}
+  .word .sp{width:38px;height:38px;flex-shrink:0;border-radius:50%;background:var(--accent);color:#fff;border:0;font-size:15px;display:flex;align-items:center;justify-content:center}
+  .word .sp.on{background:var(--warm)}
+  .word .sp:disabled{background:#c8cfcc}
+  .word .txt{min-width:0}
+  .word .w{font-size:14px;font-weight:600;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .word .c{font-size:11.5px;color:var(--ink3);display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+  .link{display:block;text-align:center;background:var(--blue);color:#fff;border-radius:11px;padding:13px;text-decoration:none;font-weight:600;font-size:14px}
+  .plain{font-size:14px;color:var(--ink2)}
+
+  .navbar{position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.97);border-top:1px solid var(--line);display:flex;padding:9px 12px calc(9px + var(--safe-b));gap:8px;z-index:20;backdrop-filter:blur(8px)}
+  .navbar button{flex:1;background:var(--bg);border:1px solid var(--line);color:var(--ink2);border-radius:10px;padding:11px 4px;font-size:13.5px;font-family:inherit}
+  .navbar button:active{background:var(--accent-soft)}
+  .navbar button.today{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
+
+  .empty{text-align:center;color:var(--ink3);padding:40px 20px}
+  @media(min-width:700px){.wrap{max-width:640px;margin:0 auto}.words{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
+<div class="top">
+  <h1><span class="dot"></span>英语每日工作台</h1>
+  <div class="sub">外研版三起点五上 · 每天 30 分钟</div>
+</div>
+
 <div class="wrap">
-  <header>
-    <div>
-      <h1>五年级英语每日工作台</h1>
-      <div class="sub" id="subtitle">外研版三起点五年级上册 · 2026新版 · 每天 30 分钟</div>
-    </div>
-    <div class="nav">
-      <button class="ghost" id="btnToday">回到今天</button>
-      <button class="ghost" id="btnPrev">前一天</button>
-      <button class="ghost" id="btnNext">后一天</button>
-    </div>
-  </header>
-
-  <div id="hint" class="hint"></div>
-
   <div class="datebar">
-    <span class="big" id="dateBig">—</span>
-    <span class="tag" id="phaseTag">—</span>
-    <span class="progress" id="progress">今日完成 0 / 3</span>
+    <div class="d"><div class="d1" id="d1">—</div><div class="d2" id="d2">—</div></div>
+    <div class="ring">
+      <svg width="48" height="48"><circle cx="24" cy="24" r="20" fill="none" stroke="#e8ece9" stroke-width="4"/><circle id="arc" cx="24" cy="24" r="20" fill="none" stroke="#0e7c6b" stroke-width="4" stroke-linecap="round" stroke-dasharray="125.6" stroke-dashoffset="125.6"/></svg>
+      <div class="n" id="pn">0/3</div>
+    </div>
   </div>
+  <div class="tip" id="tip">三段依次做：① 听音跟读 8′　② 语法造句 12′　③ 词汇听写 10′</div>
+  <div id="list"><div class="empty">加载中…</div></div>
+</div>
 
-  <div id="tasks"></div>
-
-  <div class="foot">
-    数据文件：data/tasks.json（每日任务）· data/wordlist.json（词表）· data/wordaudio.json（单词读音切片）<br>
-    加任务或改内容只需编辑以上 JSON，刷新页面即可生效。音频放在 音频/ 目录。
-  </div>
+<div class="navbar">
+  <button id="prev">‹ 前一天</button>
+  <button id="today" class="today">回到今天</button>
+  <button id="next">后一天 ›</button>
 </div>
 
 <script>
-let TASKS=[], WORDS={}, WORDAUDIO={}, curIdx=0, audio=null;
+let D=[],W={},A={},cur=0,au=null;
+const enc=s=>s.split('/').map(encodeURIComponent).join('/');
+function key(d){return 'engwb_done_'+d}
+function got(d){try{return JSON.parse(localStorage.getItem(key(d))||'[]')}catch(e){return []}}
+function put(d,a){localStorage.setItem(key(d),JSON.stringify(a))}
+function today(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
 
-function todayStr(){
-  const d=new Date();
-  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-}
-function doneKey(date){return 'engwb_done_'+date;}
-function getDone(date){try{return JSON.parse(localStorage.getItem(doneKey(date))||'[]');}catch(e){return [];}}
-function setDone(date,arr){localStorage.setItem(doneKey(date),JSON.stringify(arr));}
+fetch('data/tasks.json').then(r=>r.json()).then(async t=>{
+  const [w,a]=await Promise.all([fetch('data/wordlist.json').then(r=>r.json()),fetch('data/wordaudio.json').then(r=>r.json())]);
+  D=t.days;W=w;A=a;
+  let i=D.findIndex(x=>x.date===today());cur=i<0?0:i;render();
+}).catch(e=>document.getElementById('list').innerHTML='<div class="empty">加载失败：'+e+'</div>');
 
-async function load(){
-  // 静态数据（同时兼容本地 python 服务和 GitHub Pages）
-  const [t,w,a]=await Promise.all([
-    fetch('data/tasks.json').then(r=>r.json()),
-    fetch('data/wordlist.json').then(r=>r.json()),
-    fetch('data/wordaudio.json').then(r=>r.json())
-  ]);
-  TASKS=t.days; WORDS=w; WORDAUDIO=a;
-  const i=TASKS.findIndex(d=>d.date===todayStr());
-  curIdx=i>=0?i:0;
-  document.getElementById('subtitle').textContent=t.meta.term+' · '+t.meta.note;
-  render();
-}
-
-function stopAudio(){
-  if(audio){audio.pause();audio.currentTime=0;audio=null;}
-  document.querySelectorAll('.playing').forEach(e=>e.classList.remove('playing'));
-}
-
-function playFile(src, btn){
-  if(audio && audio.src.endsWith(src) && !audio.paused){stopAudio();return;}
-  stopAudio();
-  audio=new Audio(src.split('/').map(encodeURIComponent).join('/'));
-  audio.onended=()=>{if(btn)btn.classList.remove('playing');audio=null;};
-  audio.play();
-  if(btn)btn.classList.add('playing');
+function play(src,btn){
+  if(au){au.pause();au=null}
+  document.querySelectorAll('.on').forEach(x=>x.classList.remove('on'));
+  if(!src)return;
+  au=new Audio(enc(src));
+  au.onended=()=>{btn&&btn.classList.remove('on');au=null};
+  au.play().then(()=>btn&&btn.classList.add('on')).catch(()=>{});
 }
 
 function render(){
-  const day=TASKS[curIdx];
-  if(!day)return;
-  document.getElementById('dateBig').textContent=`${day.date}（周${day.week}）`;
-  document.getElementById('phaseTag').textContent=day.phase+' · '+day.unit;
-  const done=getDone(day.date);
-  document.getElementById('progress').textContent=`今日完成 ${done.length} / ${day.tasks.length}`;
-  document.getElementById('hint').textContent='今日三段：① 听音跟读录音 8′　② 语法造句 12′　③ 词汇阅读 10′　—　点播放按钮听标准音，勾选框记录完成。';
+  const d=D[cur];if(!d)return;
+  document.getElementById('d1').textContent=d.date+'　周'+d.week;
+  document.getElementById('d2').textContent=d.phase+' · '+d.unit;
+  const done=got(d.date),n=done.length,tot=d.tasks.length;
+  document.getElementById('pn').textContent=n+'/'+tot;
+  document.getElementById('arc').style.strokeDashoffset=125.6*(1-n/tot);
+  const L=document.getElementById('list');L.innerHTML='';
 
-  const box=document.getElementById('tasks');
-  box.innerHTML='';
-  day.tasks.forEach((t,i)=>{
+  d.tasks.forEach((t,i)=>{
     const card=document.createElement('div');
-    card.className='task'+(done.includes(i)?' finished':'');
-    const kindName={audio:'① 听音·跟读·录音',grammar:'② 语法造句',words:'③ 词汇听写',reading:'③ 分级阅读',review:'复习'}[t.type]||'任务';
-    const kindCls=(t.type==='grammar'?'grammar':(t.type==='words'||t.type==='reading'?'words':''));
+    const cls=t.type==='grammar'?'g2':(t.type==='words'||t.type==='reading'?'g3':'');
+    card.className='task '+cls+(done.includes(i)?' done':'');
+    const kind={audio:'① 听音·跟读',grammar:'② 语法造句',words:'③ 词汇听写',reading:'③ 分级阅读',review:'复习'}[t.type]||'任务';
     let body='';
-
     if(t.type==='audio'){
-      body=`<button class="play" data-src="${t.src}">▶ 播放标准音频</button><audio controls preload="none" src="${t.src.split('/').map(encodeURIComponent).join('/')}"></audio>`;
-    } else if(t.type==='grammar'){
-      body=`<div class="examples"><div class="lbl">答案示例（先自己说，再看）</div><ul>${t.examples.map(e=>`<li>${e}</li>`).join('')}</ul></div>`+
-           (t.point?`<div class="point">要点：${t.point}</div>`:'');
-    } else if(t.type==='words'){
-      // 在当前单元找；复合单元（如 Unit 1-3 / 全册）则查全部
-      let wa=WORDAUDIO[day.unit]||[];
-      if(!wa.length || day.unit.indexOf('-')>=0 || day.unit.indexOf('全')>=0){
-        wa=Object.values(WORDAUDIO).flat();
-      }
+      body=`<button class="play" data-src="${t.src}">▶ 播放标准音频</button><audio controls preload="none" src="${enc(t.src)}"></audio>`;
+    }else if(t.type==='grammar'){
+      body=`<details class="ex"><summary>看答案示例（先自己说）</summary><div class="inner"><ul>${(t.examples||[]).map(x=>'<li>'+x+'</li>').join('')}</ul>${t.point?'<div class="point">要点：'+t.point+'</div>':''}</div></details>`;
+    }else if(t.type==='words'){
+      let wa=A[d.unit]||[];
+      if(!wa.length||d.unit.includes('-')||d.unit.includes('全'))wa=Object.values(A).flat();
       body='<div class="words">'+t.words.map(w=>{
         const hit=wa.find(x=>x.word.toLowerCase()===w.toLowerCase());
-        const cn=hit?hit.cn:'';
-        return `<div class="word"><span class="sp" data-word="${w}" data-src="${hit?hit.file:''}" title="播放读音">▶</span><span class="w">${w}</span><span class="cn">${cn}</span></div>`;
+        return `<div class="word"><button class="sp" data-src="${hit&&hit.file?hit.file:''}" ${hit&&hit.file?'':'disabled'}>▶</button><span class="txt"><span class="w">${w}</span><span class="c">${hit?hit.cn:''}</span></span></div>`;
       }).join('')+'</div>';
-    } else if(t.type==='reading'){
-      body=`<a class="link" href="${t.link||'https://www.oxfordowl.co.uk/'}" target="_blank">打开 Oxford Owl 免费电子书 →</a>`;
-    } else {
-      body=`<div style="color:var(--ink2);font-size:14px">${t.detail||''}</div>`;
+    }else if(t.type==='reading'){
+      body=`<a class="link" href="${t.link||'https://www.oxfordowl.co.uk/'}" target="_blank">打开免费绘本 →</a>`;
+    }else{
+      body='<div class="plain">'+(t.detail||'')+'</div>';
     }
-
-    card.innerHTML=`
-      <div class="task-head">
-        <div class="num">${i+1}</div>
-        <div style="flex:1">
-          <div class="task-title">${t.title}</div>
-          <div class="task-detail">${t.detail||''}</div>
-        </div>
-        <span class="kind ${kindCls}">${kindName}</span>
-        <label class="done"><input type="checkbox" ${done.includes(i)?'checked':''} data-i="${i}">完成</label>
-      </div>
-      <div class="body">${body}</div>`;
-    box.appendChild(card);
+    card.innerHTML=`<div class="th"><div class="num">${i+1}</div><div class="tt"><div class="t1">${t.title}</div><div class="t2">${t.detail||kind}</div></div><div class="chk ${done.includes(i)?'on':''}" data-i="${i}">✓</div></div><div class="body">${body}</div>`;
+    L.appendChild(card);
   });
 
-  // 绑定
-  box.querySelectorAll('.play').forEach(b=>b.onclick=()=>playFile(b.dataset.src,b));
-  box.querySelectorAll('.sp').forEach(b=>b.onclick=()=>{
-    if(!b.dataset.src){alert('这个词暂无音频：'+b.dataset.word);return;}
-    playFile(b.dataset.src,b);
+  L.querySelectorAll('.play').forEach(b=>b.onclick=()=>play(b.dataset.src,b));
+  L.querySelectorAll('.sp').forEach(b=>b.onclick=()=>play(b.dataset.src,b));
+  L.querySelectorAll('.chk').forEach(c=>c.onclick=()=>{
+    let a=got(d.date),i=parseInt(c.dataset.i);
+    a=a.includes(i)?a.filter(x=>x!==i):[...a,i];
+    put(d.date,a);render();
   });
-  box.querySelectorAll('input[type=checkbox]').forEach(cb=>{
-    cb.onchange=()=>{
-      let arr=getDone(day.date);
-      if(cb.checked)arr.push(parseInt(cb.dataset.i));
-      else arr=arr.filter(x=>x!==parseInt(cb.dataset.i));
-      setDone(day.date,arr);
-      render();
-    };
-  });
-  // 每卡片内的 audio 控件互斥
-  box.querySelectorAll('audio').forEach(a=>a.addEventListener('play',()=>{
-    box.querySelectorAll('audio').forEach(o=>{if(o!==a)o.pause();});
-    stopAudio();
+  L.querySelectorAll('audio').forEach(x=>x.addEventListener('play',()=>{
+    if(au){au.pause();au=null}
+    document.querySelectorAll('.on').forEach(y=>y.classList.remove('on'));
   }));
 }
-
-document.getElementById('btnToday').onclick=()=>{
-  const i=TASKS.findIndex(d=>d.date===todayStr());
-  curIdx=i>=0?i:0;stopAudio();render();
-};
-document.getElementById('btnPrev').onclick=()=>{if(curIdx>0){curIdx--;stopAudio();render();}};
-document.getElementById('btnNext').onclick=()=>{if(curIdx<TASKS.length-1){curIdx++;stopAudio();render();}};
-load();
+document.getElementById('prev').onclick=()=>{if(cur>0){cur--;if(au){au.pause();au=null}render()}};
+document.getElementById('next').onclick=()=>{if(cur<D.length-1){cur++;if(au){au.pause();au=null}render()}};
+document.getElementById('today').onclick=()=>{const i=D.findIndex(x=>x.date===today());cur=i<0?0:i;if(au){au.pause();au=null}render()};
 </script>
 </body>
 </html>
