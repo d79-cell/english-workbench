@@ -120,12 +120,25 @@ fetch('data/tasks.json').then(r=>r.json()).then(async t=>{
 }).catch(e=>document.getElementById('list').innerHTML='<div class="empty">加载失败：'+e+'</div>');
 
 function play(src,btn){
-  if(au){au.pause();au=null}
-  document.querySelectorAll('.on').forEach(x=>x.classList.remove('on'));
-  if(!src)return;
-  au=new Audio(enc(src));
-  au.onended=()=>{btn&&btn.classList.remove('on');au=null};
-  au.play().then(()=>btn&&btn.classList.add('on')).catch(()=>{});
+  // 立即反馈：先变色，不等播放结果
+  document.querySelectorAll('.sp.on,.play.on').forEach(x=>x.classList.remove('on'));
+  if(btn)btn.classList.add('on');
+  if(au){try{au.pause()}catch(e){} au=null;}
+  if(!src){ if(btn){btn.textContent='!';setTimeout(()=>btn.textContent='▶',1200)} return; }
+  // 用页面内嵌的 audio 元素播放（真机兼容性远好于 new Audio()）
+  const el=btn?btn.parentElement.querySelector('audio'):null;
+  au = el || new Audio(enc(src));
+  try{
+    if(!el)au.src=enc(src);
+    au.currentTime=0;
+    const p=au.play();
+    if(p&&p.catch)p.catch(()=>{
+      // 播放被浏览器拒绝：提示用户点原生控件
+      if(btn){btn.textContent='再点';setTimeout(()=>btn.textContent='▶',1500)}
+    });
+  }catch(e){
+    if(btn){btn.textContent='!';setTimeout(()=>btn.textContent='▶',1200)}
+  }
 }
 
 function render(){
@@ -152,7 +165,8 @@ function render(){
       if(!wa.length||d.unit.includes('-')||d.unit.includes('全'))wa=Object.values(A).flat();
       body='<div class="words">'+t.words.map(w=>{
         const hit=wa.find(x=>x.word.toLowerCase()===w.toLowerCase());
-        return `<div class="word"><button class="sp" data-src="${hit&&hit.file?hit.file:''}" ${hit&&hit.file?'':'disabled'}>▶</button><span class="txt"><span class="w">${w}</span><span class="c">${hit?hit.cn:''}</span></span></div>`;
+        const src=hit&&hit.file?enc(hit.file):'';
+        return `<div class="word"><button class="sp" data-src="${hit&&hit.file?hit.file:''}" ${src?'':'disabled'}>▶</button><span class="txt"><span class="w">${w}</span><span class="c">${hit?hit.cn:''}</span></span>${src?`<audio preload="none" src="${src}"></audio>`:''}</div>`;
       }).join('')+'</div>';
     }else if(t.type==='reading'){
       body=`<a class="link" href="${t.link||'https://www.oxfordowl.co.uk/'}" target="_blank">打开免费绘本 →</a>`;
@@ -163,16 +177,28 @@ function render(){
     L.appendChild(card);
   });
 
-  L.querySelectorAll('.play').forEach(b=>b.onclick=()=>play(b.dataset.src,b));
-  L.querySelectorAll('.sp').forEach(b=>b.onclick=()=>play(b.dataset.src,b));
+  L.querySelectorAll('.play').forEach(b=>{
+    b.onclick=()=>play(b.dataset.src,b);
+    b.addEventListener('touchend',e=>{e.preventDefault();play(b.dataset.src,b)},{passive:false});
+  });
+  L.querySelectorAll('.sp').forEach(b=>{
+    b.onclick=()=>play(b.dataset.src,b);
+    b.addEventListener('touchend',e=>{e.preventDefault();play(b.dataset.src,b)},{passive:false});
+  });
   L.querySelectorAll('.chk').forEach(c=>c.onclick=()=>{
     let a=got(d.date),i=parseInt(c.dataset.i);
     a=a.includes(i)?a.filter(x=>x!==i):[...a,i];
     put(d.date,a);render();
   });
-  L.querySelectorAll('audio').forEach(x=>x.addEventListener('play',()=>{
-    if(au){au.pause();au=null}
-    document.querySelectorAll('.on').forEach(y=>y.classList.remove('on'));
+  // 原生 audio 控件（课文音频）播放时，停掉单词音频并清除按钮状态
+  L.querySelectorAll('.body > audio').forEach(x=>x.addEventListener('play',()=>{
+    if(au&&au!==x){try{au.pause()}catch(e){} au=null;}
+    document.querySelectorAll('.sp.on,.play.on').forEach(y=>y.classList.remove('on'));
+  }));
+  // 单词播完，恢复按钮
+  L.querySelectorAll('.word audio').forEach(x=>x.addEventListener('ended',()=>{
+    const b=x.parentElement.querySelector('.sp');if(b)b.classList.remove('on');
+    au=null;
   }));
 }
 document.getElementById('prev').onclick=()=>{if(cur>0){cur--;if(au){au.pause();au=null}render()}};
